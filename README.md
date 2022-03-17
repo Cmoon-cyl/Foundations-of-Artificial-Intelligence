@@ -4,7 +4,7 @@
 
 <img src="https://raw.githubusercontent.com/Cmoon-cyl/Image-Uploader/main/nqueen.png" alt="nqueen"  />
 
-![nqueen2](/home/cmoon/%E5%9B%BE%E7%89%87/png/nqueen2.png)
+![nqueen2](https://raw.githubusercontent.com/Cmoon-cyl/Image-Uploader/main/nqueen2.png)
 
 # 2. Astar最短路径
 
@@ -14,4 +14,4 @@
 
 - ##　一次任务结束后按ｒ键可重置
 
-  ![Astar](/home/cmoon/%E5%9B%BE%E7%89%87/Astar.png)
+  ![Astar](https://raw.githubusercontent.com/Cmoon-cyl/Image-Uploader/main/Astar.png)
