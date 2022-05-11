@@ -206,26 +206,6 @@ def timer(f):
     return timeit
 
 
-def show_images(imgs, num_rows, num_cols, titles=None, scale=1.5):  # @save
-    """Plot a list of images."""
-    figsize = (num_cols * scale, num_rows * scale)
-    _, axes = d2l.plt.subplots(num_rows, num_cols, figsize=figsize)
-    axes = axes.flatten()
-    for i, (ax, img) in enumerate(zip(axes, imgs)):
-        if torch.is_tensor(img):
-            # 图片张量
-            img = img.permute(1, 2, 0)
-            ax.imshow(img.numpy())
-        else:
-            # PIL图片
-            ax.imshow(img)
-        ax.axes.get_xaxis().set_visible(False)
-        ax.axes.get_yaxis().set_visible(False)
-        if titles:
-            ax.set_title(titles[i])
-    return axes
-
-
 def try_gpu(data, label):
     if torch.cuda.is_available():
         data, label = data.cuda(), label.cuda()
