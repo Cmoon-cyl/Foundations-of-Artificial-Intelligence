@@ -34,3 +34,31 @@
 
 
 
+## 四.车牌字符识别
+
+### 1.运行
+
+运行python文件或者jupyter notebook,支持tensorboard查看训练过程
+
+```sh
+python python CarPlateClassification.py
+tensorboard --logdir=logs --port=6006
+```
+
+### 2.运行效果:
+
+![运行结果(jupyter)](https://raw.githubusercontent.com/Cmoon-cyl/Image-Uploader/main/%E8%BF%90%E8%A1%8C%E7%BB%93%E6%9E%9C(jupyter).png)
+
+### 3.数据集
+
+ 测试集为作业中20张截图,训练集和验证集是在开源数据集基础上使用换底色制作
+
+[可从此链接下载](https://github.com/Cmoon-cyl/Car-Plate-Character-Dataset.git)
+
+测试集样式:
+
+![测试集(作业的20张图截图)](https://raw.githubusercontent.com/Cmoon-cyl/Image-Uploader/main/%E6%B5%8B%E8%AF%95%E9%9B%86(%E4%BD%9C%E4%B8%9A%E7%9A%8420%E5%BC%A0%E5%9B%BE%E6%88%AA%E5%9B%BE).png)
+
+训练集样式:
+
+![训练集](https://raw.githubusercontent.com/Cmoon-cyl/Image-Uploader/main/%E8%AE%AD%E7%BB%83%E9%9B%86.png)
